@@ -1,0 +1,10 @@
+    <?php
+
+    function writeSecretSentence(string $PARAMETRE_1, string $PARAMETRE_2): string
+    {
+        return $PARAMETRE_1 . ' s\'incline devant ' . $PARAMETRE_2;
+    }
+
+    echo writeSecretSentence('The lion', 'the moon');
+
+    ?/
